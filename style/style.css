@@ -1,0 +1,374 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base */
+  .wrapper {
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container {
+    width: 78%;
+    margin: 0 auto;
+  }
+  
+  /* Social media */
+  .holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1400px;
+    height: 110px;
+    background: #f8efef;
+  }
+  
+  .content {
+    width: 365px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  
+  .caption {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+  }
+  
+  .lead {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878b;
+  }
+  
+  .socialmedia {
+    width: 684px;
+    height: 42px;
+    margin-top: 30px;
+  }
+  
+  /* Markup */
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 150px;
+    width: 1400px;
+    height: 600px;
+  }
+  
+  /* Left block */
+  .psquare {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 30px;
+    background: #ec7979;
+    border-radius: 4px;
+  }
+  
+  .square {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 30px;
+    background: #333333;
+    border-radius: 4px;
+  }
+  
+  .ftrtext {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  /* Central block */
+  .middle {
+    width: 572px;
+    height: 133px;
+  }
+  
+  .headline {
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .desc {
+    margin-bottom: 10%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878b;
+  }
+  
+  .descr {
+    margin-bottom: 16%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878b;
+  }
+  
+  .btn {
+    top: 433px;
+    left: 341px;
+    width: 135px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background: #ec7979;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+  
+  /* Right block */
+  .right {
+    width: 320px;
+    height: 250px;
+    background: url('../assets/newyork.png') right no-repeat;
+  }
+  
+  /* Header*/
+  .header {
+    width: 1400px;
+    height: 250px;
+    padding-top: 130px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #e72424;
+    border: none;
+  }
+  
+  .subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878b;
+  }
+  
+  /* Card's field */
+  .main {
+    width: 1400px;
+    height: 345px;
+    margin-top: 60px;
+  }
+  
+  .card {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 225px;
+    margin: 0 auto;
+  }
+  
+  .card-title {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .card-text {
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .card-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background: url("../assets/bulb.png") center no-repeat;
+    border: 1px solid #e72424;
+    border-radius: 50%;
+  }
+  
+  .card-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background: url("../assets/keyboard.png") center no-repeat;
+    border: 1px solid #e72424;
+    border-radius: 50%;
+  }
+  
+  .card-image {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background: url("../assets/lightning.png") center no-repeat;
+    border: 1px solid #e72424;
+    border-radius: 50%;
+  }
+  
+  /* Download part */
+  .section {
+    width: 1400px;
+    height: 325px;
+    padding-top: 100px;
+    text-align: center;
+    background: linear-gradient(rgba(15, 15, 15, 0.856), rgba(0, 0, 0, 0.5)),
+      url('../assets/city.png');
+  }
+  
+  .subject {
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .separator {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #ffffff;
+    border: none;
+  }
+  
+  .description {
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  
+  .button {
+    width: 135px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    background-color: Transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* Container */
+  .aside {
+    width: 1400px;
+    height: 700px;
+  }
+  
+  /* Contact information */
+  .cont {
+    padding-top: 130px;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .blockleft {
+    width: 500px;
+    height: 210px;
+  }
+  
+  .data {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #bdbdbd;
+  }
+  
+  .lne {
+    width: 478px;
+    height: 1px;
+    border: none;
+    background: #BDBDBD;
+  }
+  
+  .blockright {
+    width: 500px;
+    height: 210px;
+  }
+  
+  .dash {
+    margin-top: 185px;
+    width: 478px;
+    height: 1px;
+    border: none;
+    background: #BDBDBD;
+  }
+  
+  .bn {
+  width: 166px;
+  height: 42px;
+  margin-top: 100px;
+  margin-left: 617px;
+  background: #EC7979;
+  border: 1px solid #FFFFFF;
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    height: 101px;
+    width: 1400px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #000000;
+  }
+  
+  .socials {
+    height: 23px;
+    width: 317px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  
+  .copyright {
+    padding-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+  }
